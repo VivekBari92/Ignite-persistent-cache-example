@@ -16,4 +16,12 @@ add below peroperty to enable persistance in example-ignite.xml
                 </property>
             </bean>
         </property>
-		</bean>
+	</bean>
+
+
+1. after that run ignite node
+2. run eclipse project 
+3. verify cache data stored inside work/db/<some folder name>/cache-testCache
+4. comment put data code in eclipse
+5. restart ignite node and run again eclipse project.
+6. verify if it still able to fetch data from persistane file storage and display on console.
